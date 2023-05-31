@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'fira_coderetina';
+  src: url('firacode-retina.woff2') format('woff2'),
+       url('firacode-retina.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family:  'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #131c31;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+
+.left {
+  background-image: url(./images/bg.png);
+  background-repeat: round;
+  flex: 3;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  flex: 5;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.intro {
+  margin: 100px 150px 0px 50px;
+  font-weight: 700;
+  font-size: large;
+}
+
+.inputs {
+  background-color: #c0bbbb;
+  padding: 25px 350px 25px 50px;
+}
+
+legend {
+  font-size: x-large;
+}
+
+label {
+  letter-spacing: 0.7px;
+}
+
+input {
+  border: 2px solid rgb(201, 10, 249);
+  padding: 6px;
+  border-radius: 10px;
+  min-width: 200px;
+}
+
+button {
+  background-color: rgb(234, 168, 92);
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  text-align: center;
+  border: 2px;
+  margin: 25px 50px 50px 50px;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(149, 78, 78);
+}
+
+.log_in {
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.logo_text {
+  font-family:  'Times New Roman', Times, serif;
+  font-size: 80px;
+  color: white;
+  text-align:center;
+  margin: 30px 1px;
+  position:fixed;
+  top: 600px;
+  /*border: 1px solid black;
+  border-radius: 1px;
+  width: 525px;
+  height: 110px;
+  background-color: grey;
+  opacity: 0.5;*/
+}
